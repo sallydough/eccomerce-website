@@ -87,6 +87,13 @@ body {
   top: 0;
   left: 0;
 }
+#header a.logo {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color:#088178;
+
+}
 
 #navbar {
   display: flex;
@@ -122,6 +129,10 @@ body {
   bottom: -4px;
   left: 20px;
 }
+
+
+
+
 
 /* HOME PAGE */
 
@@ -487,6 +498,14 @@ footer .col {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
+}
+
+footer .col a {
+  display: flex;
+  align-items: flex-start;
+  color:#088178;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 footer .logo {
