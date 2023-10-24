@@ -282,12 +282,12 @@ body {
   line-height: 40px;
   border-radius: 50px;
   background-color: #e8f6ea;
-  font-weight: 500;
+  font-weight: 800;
   color: #088178;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
-  right: 10px;
+  right: 10px; 
 }
 
 /* BANNER */
@@ -486,7 +486,7 @@ footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 footer .logo {
@@ -508,3 +508,35 @@ footer a {
   margin-bottom: 10px;
   color: #222;
 }
+
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i{
+  color: #465b52;
+padding-right: 4px;
+cursor: pointer;
+}
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+
