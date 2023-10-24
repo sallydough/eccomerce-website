@@ -1,7 +1,13 @@
 // Grab HTML element with id of'bar'
 const bar = document.getElementById('bar');
 //Grab HTML element with id of 'navbar'
+
+const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
+
+
+
+
 
 //1. Check if Navbar is already opened or not
 // if navbar not open - then if hamburger menu clicked, open nav bar
@@ -13,5 +19,11 @@ const nav = document.getElementById('navbar');
 if (bar) {
   bar.addEventListener('click', () => {
     nav.classList.add("active");
+  })
+}
+
+if (bar) {
+  close.addEventListener('click', () => {
+    nav.classList.remove("active");
   })
 }
