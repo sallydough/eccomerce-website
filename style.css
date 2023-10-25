@@ -581,6 +581,24 @@ color: #fff;
   border-radius: 4px;
   color: #fff;
   font-weight: 600;
+  font-size: 16px;
+}
+
+/* Single Product Section - sproduct.html */
+
+#prodetails .single-pro-image{
+width: 40%;
+margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
 }
 
 
