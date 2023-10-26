@@ -15,9 +15,9 @@
           <li><a onclick="window.location.href='index.html';" href="#index.html">Home</a></li>
           <li><a onclick="window.location.href='shop.html';" href="#shop.html">Shop</a></li>
           <li><a href="#about.html">About</a></li>
-          <li><a class="active" onclick="window.location.href='contact.html';" href="#contact.html">Contact</a></li>
+          <li><a onclick="window.location.href='contact.html';" href="#contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a class="active" href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
           </li>
           <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
@@ -29,84 +29,84 @@
     </section>
 
     <section id="shop-page-header">
-      <h2>#let's-talk</h2>
-      <p>Leave A Message! We would love to hear from you!</p>
-
+      <h2>nice-haul!</h2>
+      <p>Let's Check You Out!</p>
     </section>
 
-<section id="contact-details" class="section-p1">
-  <div class="details">
-    <span>GET IN TOUCH</span>
-    <h2>Visit one of our agency locations or contact us today</h2>
-    <h3>Head Office</h3>
+    <section id="cart" class="section-p1">
+<table width="100%">
+  <thead>
+    <tr>
+      <td>Remove</td>
+      <td>Image</td>
+      <td>Product</td>
+      <td>Price</td>
+      <td>Quantity</td>
+      <td>Subtotal</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+      <td><img src="img/products/f1.jpg" alt=""></td>
+      <td>Cartoon Astronaut T-Shirt</td>
+      <td>$95.19</td>
+      <td><input type="number" value="1" name="" id=""></td>
+      <td>$95.19</td>
+    </tr>
+    <tr>
+      <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+      <td><img src="img/products/f2.jpg" alt=""></td>
+      <td>Wavy Waves T-Shirt</td>
+      <td>$118.19</td>
+      <td><input type="number" value="1" name="" id=""></td>
+      <td>$118.19</td>
+    </tr>
+    <tr>
+      <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+      <td><img src="img/products/f3.jpg" alt=""></td>
+      <td>Alien Summer T-Shirt</td>
+      <td>$130.19</td>
+      <td><input type="number" value="1" name="" id=""></td>
+      <td>$130.19</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+<section id="cart-add" class="section-p1">
+  <div id="coupon">
+    <h3>Apply Coupon</h3>
     <div>
-      <li>
-        <i class="fa-solid fa-map"></i>
-        <p>56 Wonderful Alley Blvd, San Francisco, USA</p>
-      </li>
-      <li>
-        <i class="fa-regular fa-envelope"></i>
-        <p>contact@gmail.com</p>
-      </li>
-      <li>
-        <i class="fa-solid fa-phone"></i>
-        <p>(403) 223 - 4567</p>
-      </li>
-      <li>
-        <i class="fa-solid fa-clock"></i>
-        <p>Monday to Saturday: 9:00am - 6:00pm</p>
-      </li>
+      <input type="text" placeholder="Enter Your Coupon">
+      <button class="normal">Apply</button>
     </div>
   </div>
-<div class="map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25902.772759353735!2d-114.0918487166501!3d51.056867070721474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170003cb69fe3%3A0x65642e5fb9371572!2sCentral%20Library!5e0!3m2!1sen!2sca!4v1698266785468!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</section>
 
-<section id="form-details">
-  <form action="">
-    <span>LEAVE A MESSAGE</span>
-    <h2>We love to here from you</h2>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Email">
-    <input type="text" placeholder="Subject">
-    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-    <button class="normal">Submit</button>
-  </form>
-
-
-<div class="people">
-  <div>
-    <img src="img/people/1.png" alt="">
-    <p><span>John Bro</span> <br>Senior Marketing Manager <br> Phone: (403) 456 - 8942 <br> Email: contact@gmail.com</p>
+  <div id="subtotal">
+    <h3>Cart Totals</h3>
+    <table>
+      <tr>
+        <td>Cart Subtotal</td>
+        <td>$335</td>
+      </tr>
+      <tr>
+        <td>Shipping</td>
+        <td>Free</td>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>$ 335</strong></td>
+        </tr>
+      </tr>
+    </table>
+    <button class="normal">Proceed To Checkout</button>
   </div>
-  <div>
-    <img src="img/people/2.png" alt="">
-    <p><span>William Noble</span> <br>Senior Marketing Manager <br> Phone: (403) 456 - 8942 <br> Email: contact@gmail.com</p>
-  </div>
-  <div>
-    <img src="img/people/3.png" alt="">
-    <p><span>Seth Rogen</span> Senior Marketing Manager <br> Phone: (403) 456 - 8942 <br> Email: contact@gmail.com</p>
-  </div>
-</div>
-
 </section>
 
 
 
-    <section id="newsletter" class="section-p1 section-m1">
-      <div class="newstext">
-        <h4>Sign Up for Newsletters</h4>
-        <p>
-          Get E-mail updates about our latest shop and
-          <span>special offers.</span>
-        </p>
-      </div>
-      <div class="form">
-        <input type="text" placeholder="Your Email Address" />
-        <button class="normal">Sign Up</button>
-      </div>
-    </section>
+
+
 
     <footer class="section-p1">
       <div class="col">
