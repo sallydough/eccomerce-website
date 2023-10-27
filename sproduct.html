@@ -12,23 +12,27 @@
   </head>
   <body>
     <section id="header">
-      <a onclick="window.location.href='index.html';" href="#" class="logo"
-        ><img class="logo" src="img/MUVE4U icon.svg" alt="" />MÜVE4Ü</a
-      >
+      <div class="logo-move">
+        <a onclick="window.location.href='index.html';" href="#" class="logo">
+          <img class="logo" src="img/MUVE4U icon.svg" alt="" />
+          <p class="logo-muve">MÜVE4Ü</p>
+        </a>
+      </div>
       <div>
         <ul id="navbar">
-          <li><a onclick="window.location.href='index.html';" href="#index.html">Home</a></li>
-          <li><a onclick="window.location.href='shop.html';" href="#shop.html">Shop</a></li>
-          <li><a href="#about.html">About</a></li>
+          <li><a onclick="window.location.href='index.html';"  href="#index.html">Home</a></li>
+          
+          <li><a class="active" onclick="window.location.href='shop.html';" href="#shop.html">Shop</a></li>
+          <!-- <li><a href="#about.html">About</a></li> -->
           <li><a onclick="window.location.href='contact.html';" href="#contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a onclick="window.location.href='cart.html';" href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
           </li>
           <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
       </div>
       <div id="mobile">
-        <a href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a onclick="window.location.href='cart.html';" href="#cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
         <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
@@ -179,9 +183,14 @@
 
     <footer class="section-p1">
       <div class="col">
-        <a href="#" class="logo"
-          ><img class="logo" src="img/MUVE4U icon.svg" alt="" />MÜVE4Ü</a
-        >
+        <div class="logo-move">
+          <div class="logo-move">
+            <a onclick="window.location.href='index.html';" href="#" class="logo">
+              <img class="logo" src="img/MUVE4U icon.svg" alt="" />
+              <p>MÜVE4Ü</p>
+            </a>
+          </div>
+        </div>
         <h4>Contact</h4>
         <p><strong>Address:</strong> 98 Dover Mews SE, Calgary, AB, Canada</p>
         <p><strong>Phone:</strong> (403) 512-4567</p>

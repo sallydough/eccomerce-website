@@ -91,6 +91,7 @@ body {
   align-items: flex-start;
   text-decoration: none;
   color: #088178;
+  padding-top: 20px;
 }
 
 #navbar {
@@ -516,6 +517,11 @@ footer p {
   font-size: 13px;
   margin: 0 0 8px 0;
 }
+
+footer p.logo-muve {
+  margin: 10px 0 8px 0;
+}
+
 footer a {
   font-size: 13px;
   text-decoration: none;
@@ -749,6 +755,9 @@ color: #000;
 }
 
 /* CART PAGE */
+#cart {
+  overflow-x: auto;
+}
 
 #cart table {
   width: 100%;
@@ -1083,5 +1092,19 @@ footer .copyright {
 #form-details form {
   width: 100%;
   margin-bottom: 30px;
+}
+
+/* cart page */
+
+#cart-add {
+  flex-direction: column;
+}
+
+#coupon {
+  width: 100%;
+}
+#subtotal {
+  width: 100%;
+  padding: 20px;
 }
 }
