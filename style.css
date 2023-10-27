@@ -79,7 +79,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #e3e6f3;
+  background: #e5ede7;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
   z-index: 999;
   position: sticky;
@@ -141,11 +141,11 @@ body {
 /* HOME PAGE */
 
 #hero {
-  background-image: url("/img/hero4.png");
+  background-image: url("/img/hero-ph.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0;
+  background-position: top 5% right 0;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -896,7 +896,7 @@ padding: 30px;
     right: -300px;
     height: 100vh;
     width: 300px;
-    background-color: #93ccb3;
+    background-color: #fbf4dc;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
     transition: 0.3s;
@@ -934,7 +934,7 @@ padding: 30px;
   #hero {
     height: 70vh;
     padding: 0 80px;
-    background-position: top 30% right 30%;
+    background-position: top 0% right 30%;
   }
 
   #feature {
