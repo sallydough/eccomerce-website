@@ -22,3 +22,10 @@ if (close) {
     nav.classList.remove("active");
   })
 }
+
+let d;
+d = new Date();
+console.log(d.toString());
+
+let dateDiv = document.querySelector("#date-time")
+dateDiv.innerHTML = `<h6>The current time is ${d.toString()}</h6>`;
