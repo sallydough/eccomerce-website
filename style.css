@@ -827,7 +827,8 @@ pad: 10px 5px 10px 15px;
 padding-bottom: 15px;
 }
 
-#coupon input {
+#coupon input,
+#search input {
   padding: 10px 20px;
   outline: none;
   width: 60%;
@@ -864,18 +865,31 @@ padding: 30px;
 }
 
 
+/* Search Icon */
 
+#search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgb(229, 226, 222);
+}
 
+#search h2 {
+  color: #088178
+}
 
+#search input {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
+#search .image-nasa {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 
 /* START MEDIA QUERY */
