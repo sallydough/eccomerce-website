@@ -79,7 +79,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #e5ede7;
+  background: #000000;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
   z-index: 999;
   position: sticky;
@@ -90,7 +90,7 @@ body {
   display: flex;
   align-items: flex-start;
   text-decoration: none;
-  color: #088178;
+  color: #601717;
   padding-top: 20px;
 }
 
@@ -109,13 +109,13 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #f2f2f2;
   transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #ffba81;
 }
 
 #navbar li a.active::after,
@@ -123,7 +123,7 @@ body {
   content: "";
   width: 30px;
   height: 2px;
-  background: #088178;
+  background: #fc8e7e;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -141,7 +141,7 @@ body {
 /* HOME PAGE */
 
 #hero {
-  background-image: url("img/hero-ph.png");
+  background-image: url("img/kanye.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -155,16 +155,21 @@ body {
 
 #hero h4 {
   padding: 15px;
+  color:#e1e1e1
+}
+
+#hero h2 {
+  color: rgb(195, 195, 133);
 }
 
 #hero h1 {
-  color: #088178;
+  color: #ff5e5e;
 }
 
 #hero button {
   background-image: url("./img/button.png");
   background-color: transparent;
-  color: #088178;
+  color: #f0eaea;
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
@@ -202,7 +207,7 @@ body {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color: #ff5e5e;
   background-color: #fddde4;
 }
 
@@ -285,7 +290,7 @@ body {
 
 #product1 .pro .des h4 {
   padding-top: 7px;
-  color: #088178;
+  color: #ff5e5e;
   font-size: 15px;
   font-weight: 700;
 }
@@ -297,7 +302,7 @@ body {
   border-radius: 50px;
   background-color: #e8f6ea;
   font-weight: 800;
-  color: #088178;
+  color: #ff5e5e;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
@@ -334,7 +339,7 @@ body {
 }
 
 #banner button:hover {
-  background: #088178;
+  background: #ff5e5e;
   color: #fff;
 }
 
@@ -382,8 +387,8 @@ body {
 }
 
 #sm-banner .banner-box:hover button {
-  background: #088178;
-  border: 1px solid #088178;
+  background: #ff5e5e;
+  border: 1px solid #ff5e5e;
 }
 
 /* BANNER3 */
@@ -474,7 +479,7 @@ body {
   border-bottom-right-radius: 0;
 }
 #newsletter button {
-  background-color: #088178;
+  background-color: #ff5e5e;
   color: #fff;
   white-space: nowrap;
   border-top-left-radius: 0;
@@ -499,7 +504,7 @@ footer .col {
 footer .col a {
   display: flex;
   align-items: flex-start;
-  color: #088178;
+  color: #ff5e5e;
   text-decoration: none;
   font-weight: 600;
 }
@@ -539,7 +544,7 @@ footer .follow i {
   cursor: pointer;
 }
 footer .install .row img {
-  border: 1px solid #088178;
+  border: 1px solid #ff5e5e;
   border-radius: 6px;
 }
 
@@ -549,7 +554,7 @@ footer .install img {
 
 footer .follow i:hover,
 footer a:hover {
-  color: #088178;
+  color: #ff5e5e;
 }
 
 footer .copyright {
@@ -582,7 +587,7 @@ color: #fff;
 
 #pagination a{
   text-decoration: none;
-  background-color: #088178;
+  background-color: #ff5e5e;
   padding: 15px 20px;
   border-radius: 4px;
   color: #fff;
@@ -639,7 +644,7 @@ padding-top: 30px;
 }
 
 #prodetails .single-pro-details button {
-  background-color: #088178;
+  background-color: #ff5e5e;
   color: #fff;
 }
 
@@ -726,7 +731,7 @@ padding: 20px 0;
   border: 1px solid #e1e1e1;
 }
 #form-details form button {
-  background-color: #088178;
+  background-color: #ff5e5e;
   color: #fff;
 }
 
@@ -838,7 +843,7 @@ padding-bottom: 15px;
 
 #coupon button,
 #subtotal button {
-background-color: #088178;
+background-color: #ff5e5e;
 color: #fff;
 padding: 12px 20px;
 }
